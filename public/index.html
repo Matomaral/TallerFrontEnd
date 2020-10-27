@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/estilo.css" />
+
+  <title>Bases de datos</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <form id="contact" action="" method="post" name="Enviar">
+      <h3>Taller Base de datos UNIVALLE</h3>
+      <h4>Enviar Pacientes</h4>
+      <fieldset>
+        <input placeholder="Nombre Paciente" name="nombre" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Apellido Paciente" name="apellido" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Id Paciente" name="identificacion" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="contact" name="Actualizar">
+      <h4>Actualizar Pacientes</h4>
+      <fieldset>
+        <input placeholder="Nombre Paciente" name="nombre" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Apellido Paciente" name="apellido" type="text" tabindex="1" required autofocus>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Id Paciente" name="identificacion" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <button name="update" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="contact" name="Eliminar">
+      <h4>Eliminar Pacientes</h4>
+      <fieldset>
+        <input placeholder="Id Paciente" name="identificacion" type="text" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <button name="Borrar" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+
+    </form>
+  </div>
+
+  <div class="container">
+    <form id="contact" action="" name="Mostrar">
+      <h4>Mostrar Pacientes</h4>
+      <fieldset>
+        <button name="conseguir" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+
+    </form>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
